@@ -1,0 +1,229 @@
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/download.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.home-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right:0;
+    left: 0;
+    background-color: rgba(255, 0, 0, 0.466);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-i{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px;
+}
+.icons-i h3{
+    padding: 10px;
+}
+
+.icons span{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 180px;
+    height: 100%;
+    background-color: black;
+    text-decoration: none;
+    z-index: 9999999;
+    display: none;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content:space-between ;
+    align-items: center;
+    position: relative;
+}
+.test a:hover{
+    color:#d62e33;
+    transition: 1s;
+}
+
+.test i{
+    color: #fff;
+    font-size: 15px;
+    padding:  25px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+
+
+.test a{
+    padding: 25px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.text{
+    color: #fff;
+    text-align: center;
+}
+
+.text h2{
+font-size: 55px;
+}
+.text p{
+font-size: 15px;
+}
+
+.slide{
+    margin: 15px;
+}
+.div,.div1,.div2,.div3{
+background-color: brown;
+width: 50%;
+border: none;
+color: #fff;
+font-size: 20px;
+text-align: center;
+cursor: pointer;
+/* border-radius: 10px; */
+}
+
+.paragraph,.paragraph1,.paragraph2,.paragraph3{
+    width: 50%;
+    display: none;
+    text-align: center;
+    background-color: #ccc;
+}
+
+.slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.join{
+    margin-top: 40px;
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/invitation-2508607__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.join-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right:0;
+    left: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 80px;
+    margin: 20px;
+    
+    
+}
+
+
+.box span{
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+} 
+
+.box p{
+    font-size: 16px;
+}
+
+.contact p{
+    color: #777;
+}
+
+.contain{
+    color: #777;
+}
+
+
+.contact h1{
+    color: #444444;
+    font-size: 25px;
+}
+
+.social a{
+    color: #777;
+    border: 1px solid #777;
+    margin: 5px;
+}
+
+
+.social a:hover{
+    color: #d62e33;
+    border: 1px solid #d62e33;
+}
+
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    height: 30px;
+    border: #777 1px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: #777 1px solid;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+}
+
+.button button{
+    width: 50%;
+    border-radius: 5px;
+    margin: 12px;
+    padding: 10px;
+    color: #ccc;
+    border: none;
+}
